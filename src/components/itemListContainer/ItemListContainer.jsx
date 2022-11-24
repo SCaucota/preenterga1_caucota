@@ -1,5 +1,6 @@
 import React from "react";
-import  PropTypes from "prop-types";
+
+import { PropTypes } from "prop-types";
 import "./styles/ItemListContainer.css"
 
 const ItemListContainer = ({nombre}) => {
@@ -8,7 +9,7 @@ const ItemListContainer = ({nombre}) => {
     );
 };
 
-ItemListContainer.propTypes = {
+ItemListContainer.propType = {
     nombre: PropTypes.element.isRequired
 }
 
